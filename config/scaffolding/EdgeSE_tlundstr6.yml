@@ -21,3 +21,9 @@ packages:
   gitUsername: tlundstr
   gitToken: edge.scaffolding.EdgeSE_tlundstr6.tlundstr_git.gitToken
   gitBranch: main
+- name: T2Utilities
+  gitServerName: tlundstr_git
+  gitUrl: https://github.com/tlundstr
+  gitUsername: tlundstr
+  gitToken: edge.scaffolding.T2Utilities.tlundstr_git.gitToken
+  gitBranch: master
