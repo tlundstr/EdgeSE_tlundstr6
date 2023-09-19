@@ -78,13 +78,12 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">thomas.lundstrom@softwareag.com</value>
-    <value name="createdDate">1695107647223</value>
-    <value name="lastModifiedDate">1695107647223</value>
+    <value name="lastModifiedBy">thomas.lundstrom@softwareag.com</value>
+    <value name="lastModifiedDate">1695111823200</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="id">7627a6b036674b5f85b9e0e0a42675ee</value>
-      <null name="group"/>
-      <value name="name">SE_tlundstr_dev_edge</value>
+      <value name="id">52a460d3c1214dcfaf553a1911b4d39f</value>
+      <value name="group">default</value>
+      <value name="name">SE_tlundstr_dev_edge2</value>
     </record>
     <value name="displayName">Hello</value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -105,6 +104,7 @@
         <number name="nodeIndex" type="Long">0</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
       </record>
       <record name="/1" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -123,6 +123,7 @@
         <number name="nodeIndex" type="Long">1</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
       </record>
     </record>
   </record>
