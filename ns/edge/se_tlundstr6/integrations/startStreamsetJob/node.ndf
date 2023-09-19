@@ -112,12 +112,11 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">thomas.lundstrom@softwareag.com</value>
-    <value name="createdDate">1695117769047</value>
-    <value name="lastModifiedDate">1695117769047</value>
+    <value name="lastModifiedBy">thomas.lundstrom@softwareag.com</value>
+    <value name="lastModifiedDate">1695118339067</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">52a460d3c1214dcfaf553a1911b4d39f</value>
-      <null name="group"/>
+      <value name="group">default</value>
       <value name="name">SE_tlundstr_dev_edge2</value>
     </record>
     <value name="displayName">startStreamsetJob</value>
@@ -139,6 +138,7 @@
         <null name="mapSet"/>
         <number name="ui_step_index" type="Long">1</number>
         <number name="nodeIndex" type="Long">0</number>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
       </record>
     </record>
   </record>
