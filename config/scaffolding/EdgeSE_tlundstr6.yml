@@ -14,6 +14,28 @@ services:
   packages:
   - name: EdgeSE_tlundstr6
     version: "1.0"
+- serviceName: pub.client:http
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.473
+- serviceName: t2utilities.simulator:getProductSales
+  packages:
+  - name: T2Utilities
+    version: "1.0"
+- serviceName: pub.client:restClient
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.473
+- serviceName: edge.se_tlundstr6.integrations:getProducts
+  packages:
+  - name: EdgeSE_tlundstr6
+    version: "1.0"
+  - name: T2Utilities
+    version: "1.0"
+- serviceName: pub.json:jsonStreamToDocument
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.473
 packages:
 - name: EdgeSE_tlundstr6
   gitServerName: tlundstr_git
