@@ -1,0 +1,10 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: EdgeSE_tlundstr6
+  gitServerName: tlundstr_git
+  gitUrl: https://github.com/tlundstr/EdgeSE_tlundstr6
+  gitUsername: tlundstr
+  gitToken: edge.scaffolding.EdgeSE_tlundstr6.tlundstr_git.gitToken
+  gitBranch: main
