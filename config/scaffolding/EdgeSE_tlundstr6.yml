@@ -60,6 +60,12 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.473
+- serviceName: edge.se_tlundstr6.integrations:Default_es_service
+  packages:
+  - name: EdgeSE_tlundstr6
+    version: "1.0"
+  - name: T2Utilities
+    version: "1.0"
 packages:
 - name: EdgeSE_tlundstr6
   gitServerName: tlundstr_git
